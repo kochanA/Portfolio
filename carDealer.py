@@ -95,21 +95,20 @@ class CarShop():
         return f'[CarShop: {self.cars}, {self.revenue}]'
 
 
-car1 = Car('Volvo', model='XC90', year=2015, color='white', power=160, engine_volume=2.0, price=150000, max_gears=6)
-car2 = Car('Fiat', model='Bravo', year=2009, color='black', power=150, engine_volume=1.4, price=20000, max_gears=6)
-electric = ElectricCar('Tesla', model='3', year=2021, power=350, engine_volume=3.0, price=300000, max_gears=6, range_km=300)
+if __name__ == '__main__':
+    car1 = Car('Volvo', model='XC90', year=2015, color='white', power=160, engine_volume=2.0, price=150000, max_gears=6)
+    car2 = Car('Fiat', model='Bravo', year=2009, color='black', power=150, engine_volume=1.4, price=20000, max_gears=6)
+    electric = ElectricCar('Tesla', model='3', year=2021, power=350, engine_volume=3.0, price=300000, max_gears=6, range_km=300)
 
-# print(car1 + car2)
-
-# print(car1.shortname)
-# car1.color = 'red'
-# print(car1.color)
-# print(car1.shortname)
-
-shop = CarShop(car1, electric)
-shop.show_all_cars()
-shop.add_car(car2)
-shop.show_all_cars()
-print(shop)
-shop.sell_car(2, True)
-print(shop)
+    print(car1 + car2)
+    print(car1.shortname)
+    car1.color = 'red'
+    print(car1.color)
+    print(car1.shortname)
+    shop = CarShop(car1, electric)
+    shop.show_all_cars()
+    shop.add_car(car2)
+    shop.show_all_cars()
+    print(shop)
+    shop.sell_car(2, True)
+    print(shop)
