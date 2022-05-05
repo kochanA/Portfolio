@@ -35,7 +35,7 @@ Wiem, że współczesne projekty powinny się charakteryzować nie tylko dobrze 
 
 <center>
 
-![profile]("C:\Users\Alicja Kochanowicz\Desktop\Repozytorium\pomocnicze\technologie.JPG")
+![profile](pomocnicze/technologie.JPG)
 
 </center>
   
