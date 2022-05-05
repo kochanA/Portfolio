@@ -37,16 +37,16 @@ Wiem, że współczesne projekty powinny się charakteryzować nie tylko dobrze 
 
 ![profile]("C:\Users\Alicja Kochanowicz\Desktop\Repozytorium\pomocnicze\technologie.JPG")
 
-<center>
+</center>
   
 ## Zainteresowania
 Ciężko konkretnie sprecyzować moje zainteresowania ponieważ zmieniają się co jakiś czas, ale są to między innymi sztuki walki, jazda konna, wycieczki górskie, oraz wszelkiego rodzaju aktywności fizyczne. 
 
 <center>
 
-![profile]("C:\Users\Alicja Kochanowicz\Desktop\Repozytorium\pomocnicze\hobby.jpg")
+![mtb]("C:\Users\Alicja Kochanowicz\Desktop\Repozytorium\pomocnicze\hobby.jpg")
 
-<center>
+</center>
  
 ## Kontakt
   
