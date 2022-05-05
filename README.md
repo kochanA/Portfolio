@@ -28,8 +28,6 @@ Wiem, że współczesne projekty powinny się charakteryzować nie tylko dobrze 
 
 ## Moje projekty
 [Komis samochodowy](carDealer.py)
-*
-*
 
 ## Technologie
 
