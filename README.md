@@ -44,7 +44,7 @@ Ciężko konkretnie sprecyzować moje zainteresowania ponieważ zmieniają się 
 
 <center>
 
-![mtb]("C:\Users\Alicja Kochanowicz\Desktop\Repozytorium\pomocnicze\hobby.jpg")
+![mtb](C:\Users\Alicja Kochanowicz\Desktop\Repozytorium\pomocnicze\hobby.jpg)
 
 </center>
  
