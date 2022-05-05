@@ -27,7 +27,7 @@ W czasie kursu nauczyłam się nie tylko programować, ale rozwijałem swoje umi
 Wiem, że współczesne projekty powinny się charakteryzować nie tylko dobrze zaprojektowaną, skalowalną oraz łatwo utrzymywalną archiekturą, ale także powinny być odpowiednio przetestowane na poziomie testów jednostkowych oraz integracyjnych. Nauczyłam się testować własny kod, dzięki czemu zaoszczędziło mi to sporo czasu w czasie rozwijania moich projektów.
 
 ## Moje projekty
-[Komis samochodowy](carDealer.py)
+[Komis samochodowy](carDealer.py) | 
 [Konto bankowe](bankAccount.py)
 
 ## Technologie
