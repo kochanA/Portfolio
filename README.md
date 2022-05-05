@@ -44,7 +44,7 @@ Ciężko konkretnie sprecyzować moje zainteresowania ponieważ zmieniają się 
 
 <center>
 
-![mtb](pomocnicze/hobby.jpg)
+![profile](pomocnicze/hobby.jpg)
 
 </center>
  
