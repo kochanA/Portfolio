@@ -51,5 +51,5 @@ Ciężko konkretnie sprecyzować moje zainteresowania ponieważ zmieniają się 
 ## Kontakt
   
 Skontaktuj się ze mną mailowo: alicjakochanowicz7@gmail.com
-Linkedin: [Alicja Kochanowicz](linkedin.com/in/alicja-kochanowicz-057981202)
+Linkedin: [Alicja Kochanowicz](http://www.linkedin.com/in/alicja-kochanowicz-057981202)
  
