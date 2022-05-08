@@ -50,7 +50,7 @@ Mam mnóstwo pomysłów na spędzanie wolnego czasu. Są to między innymi podr�
 
 <center>
 
-![profile](pomocnicze/hobby.jpg)
+![profile](pomocnicze/zainteresowania.jpg)
 
 </center>
  
