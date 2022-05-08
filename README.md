@@ -45,7 +45,7 @@ Wiem, że współczesne projekty powinny się charakteryzować nie tylko dobrze 
 </center>
   
 ## Zainteresowania
-Mam mnóstwo pomysłów na spędzanie wolnego czasu. Oto kilka przykładowych zajęć, przy których się relaksuję i odpoczywam.
+Mam mnóstwo pomysłów na spędzanie wolnego czasu. Są to między innymi podróże, wycieczki górskie oraz różnego rodzaju aktywności fizyczne.
  
 
 <center>
