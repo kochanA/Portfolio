@@ -2,7 +2,11 @@
 ## O mnie
 Cześć, nazywam się Alicja Kochanowicz, jestem początkującą programistką. Chciałabym podzielić się z
 Tobą projektami oraz doświadczeniem jakie nabyłam przy ich realizacji.
+<center>
 
+![profile](zdj.jpg)
+
+</center>
 
 
 ## Programowanie
