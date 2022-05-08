@@ -28,7 +28,9 @@ Wiem, że współczesne projekty powinny się charakteryzować nie tylko dobrze 
 
 ## Moje projekty
 [Komis samochodowy](carDealer.py) | 
-[Konto bankowe](bankAccount.py)
+[Konto bankowe](bankAccount.py) | 
+[Subskrypcje](subscriptions.py) | 
+[Sortowanie bąbelkowe](bubbleSort.py)
 
 ## Technologie
 
