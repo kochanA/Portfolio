@@ -1,7 +1,6 @@
 # Alicja Kochanowicz
-## O mnie
-Cześć, nazywam się Alicja Kochanowicz, jestem początkującą programistką. Chciałabym podzielić się z
-Tobą projektami oraz doświadczeniem jakie nabyłam przy ich realizacji.
+## About me
+Hello, my name is Alicja Kochanowicz, I am a beginner programmer. I would like share to You my projects and the experience I have gained in their implementation.
 <center>
 
 ![mtb](pomocnicze/zdj.jpg)
@@ -10,33 +9,35 @@ Tobą projektami oraz doświadczeniem jakie nabyłam przy ich realizacji.
 
 
 ## Programowanie
-Po ukończeniu studiów na kierunku elektrotechnika szukałam dziedziny, w której mogłabym się rozwijać i tak wpadłam na pomysł zgłębienia wiedzy programistycznej. Pierwsze kroki w programowaniu postawiłam w ubiegłym roku przy realizacji kursu „Python 3 od Podstaw do Eksperta” na platformie Udemy. Chciałam w ten sposób sprawdzić czy programowanie to coś dla mnie i skoro to czytasz to za pewne domyślasz się, że postawiłam na tą ścieżkę rozwoju. Kolejnym krokiem w rozwijaniu umiejętności programowania było zapisanie się na kurs do Software Development Academy gdzie pod okiem doświadczonych programistów w bardzo szerokim zakresie zgłębiam tajniki programowania w języku Python. 
+After completing my master's degree in electrical engineering, I was looking for a field in which I could develop and so I came up with the idea of ​​deepening my programming knowledge.
+I took my first steps in programming last year with the "Python 3 From Basics to Expert" course on the Udemy platform.
+In this way, I wanted to check if programming is something for me and since you are reading this, you can probably guess that I chose this path of development. The next step in developing my programming skills was enrolling in the Software Development Academy course, where under the watchful eye of experienced programmers I explore the secrets of Python programming in a very wide range. 
 
-Zawsze lubiłam szukać rozwiązań aby ułatwiać sobie powtarzalne czynności, odkąd zauważyłam możliwość wykorzystania programowania do takich właśnie celów programowanie stało się dla mnie jeszcze bardziej przyjemne. 
+I have always liked to look for solutions to facilitate repetitive activities, since I noticed the possibility of using programming for such purposes, programming has become even more enjoyable for me.
 
 ## Kurs Software Development Academy
-Mam przyjemność uczestniczyć w kursie "Python od Podstaw" organizowanym przez Software Development Academy. Kurs składa się z ponad 300 godzin zajęć, dodatkowo wiele godzin tygodniowo poświęcam na pracę samodzielną dzięki czemu zdobyłam wiedzę z następujących tematów: 
-* Język Python : Python-podstawy, Python-technologia, Pyton - średniozaawansowany, Algorytmy i struktury danych,
-* Testowanie i dobre praktyki: Testowanie oprogramowania i TDD, Wzorce projektowe i dobre praktyki,
-* Bazy danych: Bazy danych SQL, Bazy danych – programowanie.
+I am pleased to participate in the "Python from Basics" course organized by the Software Development Academy. The course consists of over 300 hours of classes, and I devote many hours a week to independent work, thanks to which I gained knowledge on the following topics:
+* Python: Python Basics, Python Technology, Python Intermediate, Algorithms and Data Structures,
+* Testing and good practices: Software testing and TDD, Design patterns and good practices,
+* Databases: SQL databases, Databases - programming.
 
-Kurs przewiduje również zagadnienia takie jak Frontend (HTML, CSS, JavaScript) oraz Technologie backendowe, które będę zgłębiać w najbliższych tygodniach.
+The course also covers topics such as Frontend (HTML, CSS, JavaScript) and Backend Technologies, which I will explore in the coming weeks.
 
-## Git oraz HTTP
-W czasie kursu nauczyłam się nie tylko programować, ale rozwijałem swoje umiejętności w wielu kierunkach między innymi:
-* Nauczyłam się pracy z Narzędziem GIT (oraz Gitlab),
-* Nauczyłam się podstaw REST API oraz narzędzi sieciowych, dzięki czemu w przyszłej pracy, będę mogła stanowić wsparcie w czasie procesu debugowania back-end'u.
+## Git and HTTP
+During the course, I learned not only to program, but also developed my skills in many directions, including:
+* I learned to work with the GIT tool (and Gitlab),
+* I learned the basics of REST API and network tools, so that in my future work, I will be able to provide support during the back-end debugging process.
 
-## Testowanie Oprogramowania
-Wiem, że współczesne projekty powinny się charakteryzować nie tylko dobrze zaprojektowaną, skalowalną oraz łatwo utrzymywalną architekturą, ale także powinny być odpowiednio przetestowane na poziomie testów jednostkowych oraz integracyjnych. Nauczyłam się testować własny kod, dzięki czemu zaoszczędziło mi to sporo czasu w czasie rozwijania moich projektów.
+## Software Testing
+I know that modern projects should not only be characterized by a well-designed, scalable and easily maintainable architecture, but also should be properly tested at the level of unit and integration tests. I learned to test my own code, which saved me a lot of time while developing my projects.
 
-## Moje projekty
-[Komis samochodowy](carDealer.py) | 
-[Konto bankowe](bankAccount.py) | 
-[Subskrypcje](subscriptions.py) | 
-[Sortowanie bąbelkowe](bubbleSort.py)
+## My projects
+[Used car dealer](carDealer.py) | 
+[Bank account](bankAccount.py) | 
+[Subscriptions](subscriptions.py) | 
+[Bubble sort](bubbleSort.py)
 
-## Technologie
+## Technologies
 
 <center>
 
@@ -44,8 +45,8 @@ Wiem, że współczesne projekty powinny się charakteryzować nie tylko dobrze 
 
 </center>
   
-## Zainteresowania
-Mam mnóstwo pomysłów na spędzanie wolnego czasu. Są to między innymi podróże, wycieczki górskie oraz różnego rodzaju aktywności fizyczne.
+## Interested
+I have a lot of ideas for spending my free time. These include travels, mountain tours and various types of physical activity.
  
 
 <center>
@@ -54,8 +55,8 @@ Mam mnóstwo pomysłów na spędzanie wolnego czasu. Są to między innymi podr�
 
 </center>
  
-## Kontakt
+## Contact
   
-Skontaktuj się ze mną mailowo: alicjakochanowicz7@gmail.com
+Contact by e-mail: alicjakochanowicz7@gmail.com
 Linkedin: [Alicja Kochanowicz](http://www.linkedin.com/in/alicja-kochanowicz-057981202)
  
