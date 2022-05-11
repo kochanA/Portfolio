@@ -41,7 +41,7 @@ I know that modern projects should not only be characterized by a well-designed,
 
 <center>
 
-![profile](technologie.JPG)
+![profile](R_pomocnicze/technologie.JPG)
 
 </center>
   
@@ -51,7 +51,7 @@ I have a lot of ideas for spending my free time. These include travels, mountain
 
 <center>
 
-![profile](zainteresowania.JPG)
+![profile](R_pomocnicze/zainteresowania.JPG)
 
 </center>
  
