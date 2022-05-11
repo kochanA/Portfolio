@@ -1,6 +1,6 @@
 # Alicja Kochanowicz
 ## About me
-Hello, my name is Alicja Kochanowicz, I am a beginner programmer. I would like share to You my projects and the experience I have gained in their implementation.
+Hello, my name is Alicja Kochanowicz, I'm a beginner programmer. I would like share to You my projects and the experience I have gained in their implementation.
 <center>
 
 ![mtb](pomocnicze/zdj.jpg)
@@ -8,7 +8,7 @@ Hello, my name is Alicja Kochanowicz, I am a beginner programmer. I would like s
 </center>
 
 
-## Programowanie
+## Programming
 After completing my master's degree in electrical engineering, I was looking for a field in which I could develop and so I came up with the idea of ​​deepening my programming knowledge.
 I took my first steps in programming last year with the "Python 3 From Basics to Expert" course on the Udemy platform.
 In this way, I wanted to check if programming is something for me and since you are reading this, you can probably guess that I chose this path of development. The next step in developing my programming skills was enrolling in the Software Development Academy course, where under the watchful eye of experienced programmers I explore the secrets of Python programming in a very wide range. 
