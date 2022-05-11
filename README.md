@@ -3,7 +3,7 @@
 Hello, my name is Alicja Kochanowicz, I'm a beginner programmer. I would like share to You my projects and the experience I have gained in their implementation.
 <center>
 
-![mtb](pomocnicze/zdj.jpg)
+![mtb](zdj.jpg)
 
 </center>
 
@@ -41,7 +41,7 @@ I know that modern projects should not only be characterized by a well-designed,
 
 <center>
 
-![profile](pomocnicze/technologie.JPG)
+![profile](technologie.JPG)
 
 </center>
   
@@ -51,7 +51,7 @@ I have a lot of ideas for spending my free time. These include travels, mountain
 
 <center>
 
-![profile](pomocnicze/zainteresowania.JPG)
+![profile](zainteresowania.JPG)
 
 </center>
  
