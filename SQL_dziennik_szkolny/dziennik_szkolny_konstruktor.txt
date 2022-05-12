@@ -1,0 +1,141 @@
+CREATE DATABASE Dziennik_szkolny DEFAULT CHARSET=utf8mb4;
+
+use Dziennik_szkolny;
+
+Create table Stan(
+	id INT AUTO_INCREMENT not null primary key,
+	rodzaj_nieobecnosci varchar(50) not null
+	);
+
+Create table Podzial_godzinowy(
+	id INT AUTO_INCREMENT not null primary key,
+	przedzial_czasowy varchar(15) not null
+	);
+
+Create table Sala(
+	nr_sali INT not null primary key,
+	rodzaj varchar(25) not null
+	);
+
+Create table Nauczyciel(
+	id INT AUTO_INCREMENT not null primary key,
+	imie varchar(127) not null,
+	nazwisko varchar(127) not null
+	);
+
+Create table Przedmiot(
+	id INT AUTO_INCREMENT not null primary key,
+	nazwa varchar(127) not null
+	);
+
+Create table Rok_szkolny(
+	id INT AUTO_INCREMENT not null primary key,
+	nazwa VARCHAR (20) not null,
+	semestr INT not null
+	);
+
+Create table Waga(
+	id INT AUTO_INCREMENT not null primary key,
+	wartosc INT not null,  
+	umiejetnosc VARCHAR (100) not null
+	);
+
+Create table Opiekun(
+	id INT AUTO_INCREMENT not null primary key,
+	imie VARCHAR(127) not null,
+	nazwisko VARCHAR(127) not null,
+	adres VARCHAR(256) not null,
+	konatkt CHAR (9)
+	);
+
+Create table Uczen(
+	id INT AUTO_INCREMENT not null primary key,
+	imie VARCHAR(127) not null,
+	nazwisko VARCHAR(127) not null,
+	pesel CHAR (11)	
+	);	
+
+create table Nauczyciel_przedmiotu(
+	id INT AUTO_INCREMENT not null primary key,
+	nauczyciel_id INT not null,
+	przedmiot_id INT not null,
+	constraint FK_nauczyciel foreign key (nauczyciel_id) references Nauczyciel(id),
+	constraint FK_przedmiot foreign key (przedmiot_id) references Przedmiot(id)
+	);
+
+create table Relacja(
+	opiekun_id INT not null,
+	uczen_id INT not null,
+	constraint FK_opiekun foreign key (opiekun_id) references Opiekun(id),
+	constraint FK_uczen foreign key (uczen_id) references Uczen(id),
+	PRIMARY KEY(opiekun_id, uczen_id)
+	);
+
+Create table Klasa (
+	id INT AUTO_INCREMENT not null primary key,
+	nazwa VARCHAR(32) not null,
+	wychowawca INT not null,
+	rok_szkolny_id INT not null,
+	constraint FK_wychowawca_nauczyciel foreign key (wychowawca) references Nauczyciel(id),
+	constraint FK_rok_szkolny foreign key (rok_szkolny_id) references Rok_szkolny(id)
+	);
+
+Create table Uczen_w_klasie (
+	id INT AUTO_INCREMENT not null primary key,
+	uczen_id INT not null,
+	klasa_id INT not null,
+	constraint FK_uczen_id foreign key (uczen_id) references Uczen(id),
+	constraint FK_klasa_id foreign key (klasa_id) references Klasa(id)	
+	);
+
+Create table Uwaga(
+	id INT AUTO_INCREMENT not null primary key,
+	tresc VARCHAR(255) not null,
+	nauczyciel_id INT not null,
+	data date not null,
+	constraint FK_nauczyciel_id foreign key (nauczyciel_id) references Nauczyciel(id)
+	);
+
+Create table Uwaga_uczen_w_klasie (
+	uwaga_id INT not null,
+	uczen_w_klasie_id INT not null,
+	constraint FK_uwaga foreign key (uwaga_id) references Uwaga(id),
+	constraint FK_uczen_w_klasie foreign key (uczen_w_klasie_id) references Uczen_w_klasie(id),
+	PRIMARY KEY(uwaga_id, uczen_w_klasie_id)
+	);
+
+create table Plan_zajec(
+	id INT AUTO_INCREMENT not null primary key,
+	klasa_id INT not null,
+	nauczyciel_przedmiotu_id INT not null,
+	podzial_godzinowy_id INT not null,
+	sala_nr_id INT not null,
+	dni_tygodnia varchar(25) not null,
+	constraint FK_plan_zajec_klasa_id foreign key (klasa_id) references Klasa(id),
+	constraint FK_nauczyciel_przedmiotu_id foreign key (nauczyciel_przedmiotu_id) references Nauczyciel_przedmiotu(id),
+	constraint FK_podzial_godzinowy_id foreign key (podzial_godzinowy_id) references Podzial_godzinowy(id),
+	constraint FK_sala_id foreign key (sala_nr_id) references Sala(nr_sali)
+	);
+
+create table Obecnosc_ucznia(
+	id INT AUTO_INCREMENT not null primary key,
+	plan_zajec_id INT not null,
+	uczen_w_klasie_id INT not null,
+	stan_id INT not null,
+	data date not null,
+	constraint FK_plan_zajec foreign key (plan_zajec_id) references Plan_zajec(id),
+	constraint FK_uczen_w_klasie_fk foreign key (uczen_w_klasie_id) references Uczen_w_klasie(id),
+	constraint FK_stan foreign key (stan_id) references Stan(id)
+	);
+
+Create table Ocena (
+	id INT AUTO_INCREMENT not null primary key,
+	stopien INT not null,
+	waga_id INT not null,
+	uczen_w_klasie_id INT not null,
+	nauczyciel_przedmiotu_id INT not null,
+	data DATE not null,
+	constraint FK_waga_id foreign key (waga_id) references Waga(id),
+	constraint FK_uczen_w_klasie_id foreign key (uczen_w_klasie_id) references Uczen_w_klasie(id),
+	constraint FK_ocena_nauczyciel_przedmiotu foreign key (nauczyciel_przedmiotu_id) references Nauczyciel_przedmiotu(id)
+	);

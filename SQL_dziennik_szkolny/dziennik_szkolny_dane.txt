@@ -1,0 +1,356 @@
+use Dziennik_szkolny;
+SET NAMES 'utf8mb4';
+SET CHARACTER SET utf8mb4;
+
+insert into Stan (rodzaj_nieobecnosci) values
+	("nieobecność"),
+	("nieobecność usprawiedliwiona"),
+	("spóźnienie"),
+	("zawody");
+	
+insert into Podzial_godzinowy (przedzial_czasowy) values
+	("8:00-8:45"),
+	("8:55-9:40"),
+	("9:50-10:35"),
+	("10:45-11:30"),
+	("11:50-12:35"),
+	("12:50-13:35"),
+	("13:50-14:35"),
+	("14:50-15:35"),
+	("15:40-16:25");
+	
+insert into Sala (nr_sali, rodzaj) values
+	(01, "Hala Sportowa"),
+	(15, "Sala Językowa"),
+	(50, "Sala Informatyczna"),
+	(101, "Sala Matematyczna"),
+	(106, "Sala Geograficzna"),
+	(113, "Sala Historyczna"),
+	(163, "Sala Biologiczna"),
+	(165, "Sala Techniczna");
+	
+insert into Rok_szkolny (nazwa , semestr) VALUES
+	("2020/2021", 1),
+	("2020/2021", 2),
+	("2021/2022", 1),
+	("2021/2022", 2);
+
+insert into Nauczyciel (imie, nazwisko) values
+    ("Mikołaj", "Mazór"),
+    ("Witold", "Kot"),
+    ("Barbara", "Gabrysiak"),
+    ("Monika", "Lotek"),
+    ("Anna", "Moś"),
+    ("Piotr", "Nawal"),
+    ("Maciej", "Kuśka"),
+    ("Joanna", "Domańska"),
+    ("Greta", "Kawa"),
+    ("Magdalena", "Żaba"),
+    ("Krzysztof", "Noteć"),
+    ("Tadeusz", "Bielański");	
+    
+insert into Przedmiot (nazwa) VALUES
+	("Matematyka"),
+    ("Religia"),
+    ("Język polski"),
+    ("Język angielski"),
+    ("Wychowanie-fizyczne"),
+    ("Plastyka"),
+    ("Biologia"),
+    ("Zajęcia z wychowawcą"),
+    ("Historia"),
+    ("Muzyka"),
+    ("Informatyka"),
+	("Technika"),
+	("Geografia");
+	
+insert into Nauczyciel_przedmiotu (nauczyciel_id, przedmiot_id) VALUES
+	(1, 1),
+    (2, 2),
+    (3, 3),
+    (4, 4),
+    (5, 5),
+    (6, 5),
+    (7, 5),
+    (8, 6),
+    (9, 7),
+    (3, 8),
+    (9, 8),
+    (10, 8),
+    (10, 9),
+    (11, 10),
+    (9, 11),
+    (8, 12),
+    (12, 13);
+    
+insert into Klasa (nazwa, wychowawca, rok_szkolny_id) VALUES
+	("6a", 3, 4),
+	("6b", 9, 4),
+	("6c", 10, 4);
+
+insert into Waga (wartosc, umiejetnosc) VALUES
+	(1, "aktywnosc"),
+	(2, "praca domowa"),
+	(3, "karta pracy"),
+	(4, "odpowiedz ustna"),
+	(5, "kartkowka"),
+	(5, "sprawdzian");
+
+insert into Uwaga (tresc, nauczyciel_id, data) values
+	("Uczen je w trakcie lekcji", 5, now()),
+	("Uczen uzywa wulgaryzmów na lekcji", 6, now()),
+	("Uczen notorycznie sie spóznia", 7, now()),
+	("Uczen rozmawia na lekcji", 9, now()),
+	("Uczen notorycznie nie uwaza na lekcji ", 3, now()),
+	("Uczen niszczy mienie szkoly", 11, now());
+
+insert into Opiekun (imie, nazwisko, adres, konatkt) values
+	("Anna", "Nowak", "Lawendowa 29", "999222331"),
+	("Barbara","Kowalska", "Ogrodowa 21", "999222332"),
+	("Janina","Kowalska", "Lesna 2", "999222333"),
+	("Maria", "Szymanska", "Klonowa 2",	"999222334"),
+	("Eustacha", "Szymanska", "Noblistow 34", "999222335"),
+	("Bogusia",	"Nowak", "Parkowa 3", "999222336"),
+	("Ela",	"Biel",	"Ogrodowa 34", "999222337"),
+	("Helena", "Wojutula", "JPII 34", "999222338"),
+	("Zofia", "Batory",	"Wolnosci 7", "999222339"),
+	("Anna",	"Tomaszewski", 	"Dmowskiego 9",	"999222340"),
+	("Gienia",	"Mickiewicz",	"Slupska 4", "999222341"),
+	("Wiesia",	"Maria", "Gdanska 87",	"999222342"),
+	("Adam", "Ktos", "Zakowa 8", "999222343"),
+	("Andrzej",	"Aleksandrowicz", "Gospody 36",	"999222344");
+
+insert into Uczen (imie, nazwisko, pesel) VALUES
+	("Jan",	"Nowak", "11211100008"),
+	("Andrzej",	"Kowalski", "11221999226"),
+	("Agata", "Kowalska", "11281399346"),
+	("Jakub", "Szymanski", "11281693898"),
+	("Anna",	"Szymanska",	"11221393997"),
+	("Jan", "Nowak",	"11321393392"),
+	("Marek",	"Biel",	"10241582274"),
+	("Wojciech",	"Wojutula",	"11291102598"),
+	("Stefan", 	"Batory",	"11271104268"),
+	("Tomasz",	"Tomaszewski", "11312592798"),
+	("Adam", "Mickiewicz",	"11292032834"),
+	("Anna",	"Maria",	"11230187295"),
+	("Jolanta",	"Ktos",	"11261001009"),
+	("Aleksandra",	"Aleksandrowicz", "11210400447"),
+	("Zofia", "Nowak",	"11211100119"),
+	("Tomasz",	"Tomaszewski", "11312592798"),
+	("Adam", "Mickiewicz",	"11292032834"),
+	("Anna",	"Maria",	"11230187295"),
+	("Jolanta",	"Ktos",	"11261001009"),
+	("Aleksandra",	"Aleksandrowicz", "11210400447"),
+	("Zofia", "Nowak",	"11211100119"),
+	("Tomasz", "Stomaszewski", "11312592898"),
+	("Adam", "Misiewicz", "11292034434"),
+	("Anna", "Morys", "11230123295"),
+	("Jolanta", "Ktos", "11261001009"),
+	("Aleksander", "Aleksandrowicz", "11210400448"),
+	("Zofia", "Nowakowska", "11211100129");
+
+insert  into Relacja (opiekun_id, uczen_id) VALUES
+	(1,	1),
+	(2,	2),
+	(3,	3),
+	(4,	4),
+	(5,	5),
+	(6,	6),
+	(7,	7),
+	(8,	8),
+	(9,	9),
+	(10, 10),
+	(11, 11),
+	(12, 12),
+	(13, 13),
+	(14, 14),
+	(1, 15),
+	(10, 16),
+	(11, 17),
+	(12, 18),
+	(13, 19),
+	(14, 20),
+	(1, 21),
+	(1, 22),
+	(10, 23),
+	(11, 24),
+	(12, 25),
+	(13, 26),
+	(14, 27);
+
+insert into uczen_w_klasie (uczen_id, klasa_id) values
+	(1,	1),
+	(2,	1),
+	(3,	1),
+	(4,	1),
+	(5,	1),
+	(6,	1),
+	(7,	1),
+	(8,	1),
+	(9,	1),
+	(10, 2),
+	(11, 2),
+	(12, 2),
+	(13, 2),
+	(14, 2),
+	(15, 2),
+	(16, 2),
+	(17, 2),
+	(18, 2),
+	(19, 3),
+	(20, 3),
+	(21, 3),
+	(22, 3),
+	(23, 3),
+	(24, 3),
+	(25, 3),
+	(26, 3),
+	(27, 3);
+
+insert into Uwaga_uczen_w_klasie (uwaga_id, uczen_w_klasie_id) values
+	(1,	13),
+	(2,	14),
+	(3,	15),
+	(4,	16),
+	(5,	17),
+	(6,	18),
+	(1,	1),
+	(2,	13),
+	(3,	19),
+	(4,	14),
+	(5,	18),
+	(6,	2);
+	
+insert into Ocena (uczen_w_klasie_id, nauczyciel_przedmiotu_id, data, stopien, waga_id) VALUES	
+	(1, 1, now(), 6, 3),
+	(2, 3, now(), 5, 1),
+	(3, 5, now(), 6, 1),
+	(4, 5, now(), 4, 4),
+	(5, 3, now(), 6, 5),
+	(5, 1, now(), 4, 5);
+
+insert into Plan_zajec (klasa_id, nauczyciel_przedmiotu_id, podzial_godzinowy_id, sala_nr_id, dni_tygodnia) values
+	(1, 1, 2, 101, "Poniedziałek"),
+	(1, 2, 3, 101, "Poniedziałek"),
+	(1, 3, 4, 15, "Poniedziałek"),
+	(1, 3, 5, 15, "Poniedziałek"),
+	(1, 4, 6, 15, "Poniedziałek"),
+	(1, 7, 7, 01, "Poniedziałek"),
+
+	(1, 3, 3, 15, "Wtorek"),
+	(1, 1, 4, 101, "Wtorek"),
+	(1, 8, 5, 165, "Wtorek"),
+	(1, 11, 6, 163, "Wtorek"),
+	(1, 4, 7, 15, "Wtorek"),
+
+	(1, 10, 2, 101, "Środa"),
+	(1, 1, 3, 101, "Środa"),
+	(1, 3, 4, 50, "Środa"),
+	(1, 13, 5, 113, "Środa"),
+	(1, 14, 6, 165, "Środa"),
+	(1, 5, 7, 01, "Środa"),
+	(1, 6, 7, 01, "Środa"),
+
+	(1, 2, 1, 101, "Czwartek"),
+	(1, 1, 2, 101, "Czwartek"),
+	(1, 15, 3, 15, "Czwartek"),
+	(1, 16, 4, 165, "Czwartek"),
+	(1, 5, 5, 01, "Czwartek"),
+	(1, 6, 5, 01, "Czwartek"),
+	
+	(1, 4, 1, 15, "Piątek"),
+	(1, 3, 2, 15, "Piątek"),
+	(1, 13, 3, 113, "Piątek"),
+	(1, 17, 4, 106, "Piątek"),
+	(1, 7, 5, 01, "Piątek"),
+
+	(2, 4, 1, 15, "Poniedziałek"),
+	(2, 3, 2, 15, "Poniedziałek"),
+	(2, 13, 3, 113, "Poniedziałek"),
+	(2, 17, 4, 106, "Poniedziałek"),
+	(2, 7, 5, 01, "Poniedziałek"),
+
+	(2, 2, 1, 101, "Wtorek"),
+	(2, 1, 2, 101, "Wtorek"),
+	(2, 15, 3, 50, "Wtorek"),
+	(2, 16, 4, 165, "Wtorek"),
+	(2, 5, 5, 01, "Wtorek"),
+	(2, 6, 5, 01, "Wtorek"),
+
+	(2, 3, 3, 15, "Środa"),
+	(2, 1, 4, 101, "Środa"),
+	(2, 8, 5, 165, "Środa"),
+	(2, 11, 6, 163, "Środa"),
+	(2, 4, 7, 15, "Środa"),
+
+	(2, 11, 2, 163, "Czwartek"),
+	(2, 1, 3, 101, "Czwartek"),
+	(2, 3, 4, 15, "Czwartek"),
+	(2, 13, 5, 113, "Czwartek"),
+	(2, 14, 6, 165, "Czwartek"),
+	(2, 5, 7, 01, "Czwartek"),
+	(2, 6, 7, 01, "Czwartek"),
+
+	(2, 1, 2, 101, "Piątek"),
+	(2, 2, 3, 101, "Piątek"),
+	(2, 3, 4, 15, "Piątek"),
+	(2, 3, 5, 15, "Piątek"),
+	(2, 4, 6, 15, "Piątek"),
+	(2, 7, 7, 01, "Piątek"),
+
+	(3, 3, 3, 15, "Poniedziałek"),
+	(3, 1, 4, 101, "Poniedziałek"),
+	(3, 8, 5, 165, "Poniedziałek"),
+	(3, 11, 6, 163, "Poniedziałek"),
+	(3, 4, 7, 15, "Poniedziałek"),
+
+	(3, 1, 1, 101, "Wtorek"),
+	(3, 2, 2, 101, "Wtorek"),
+	(3, 3, 3, 15, "Wtorek"),
+	(3, 3, 4, 15, "Wtorek"),
+	(3, 4, 5, 15, "Wtorek"),
+	(3, 7, 6, 01, "Wtorek"),
+
+	(3, 2, 1, 101, "Środa"),
+	(3, 1, 2, 101, "Środa"),
+	(3, 15, 3, 50, "Środa"),
+	(3, 16, 4, 165, "Środa"),
+	(3, 5, 5, 01, "Środa"),
+	(3, 6, 5, 01, "Środa"),
+
+	(3, 4, 1, 15, "Czwartek"),
+	(3, 3, 2, 15, "Czwartek"),
+	(3, 13, 3, 113, "Czwartek"),
+	(3, 17, 4, 106, "Czwartek"),
+	(3, 7, 5, 01, "Czwartek"),
+
+	(3, 12, 2, 113, "Piątek"),
+	(3, 1, 3, 101, "Piątek"),
+	(3, 15, 4, 15, "Piątek"),
+	(3, 16, 5, 165, "Piątek"),
+	(3, 5, 6, 01, "Piątek"),
+	(3, 6, 6, 01, "Piątek");
+	
+insert into Obecnosc_ucznia (plan_zajec_id, uczen_w_klasie_id, stan_id, data) values
+	(1,1,1,now()),
+	(2,1,1,now()),
+	(3,1,1,now()),
+	(4,1,1,now()),
+	(5,1,1,now()),
+	(6,1,1,now()),
+	(1,5,3,now()),
+	(1,6,3,now()),
+	(35,13,2,now()),
+	(36,13,3,now()),
+	(37,13,3,now()),
+	(38,13,3,now()),
+	(39,13,3,now()),
+	(40,13,3,now()),
+	(41,16,4,now()),
+	(42,16,4,now()),
+	(43,16,4,now()),
+	(41,17,4,now()),
+	(42,17,4,now()),
+	(43,17,4,now()),
+	(44,17,4,now()),
+	(45,17,4,now());
