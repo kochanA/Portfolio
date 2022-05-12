@@ -51,7 +51,7 @@ I have a lot of ideas for spending my free time. These include travels, mountain
 
 <center>
 
-![profile](auxiliary/technologie.JPG)
+![profile](auxiliary/zainteresowania.JPG)
 
 </center>
  
