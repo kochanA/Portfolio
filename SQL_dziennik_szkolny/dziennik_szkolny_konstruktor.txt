@@ -6,6 +6,7 @@ Create table Stan(
 	id INT AUTO_INCREMENT not null primary key,
 	rodzaj_nieobecnosci varchar(50) not null
 	);
+alter table Stan add constraint un_stan unique (rodzaj_nieobecnosci); 
 
 Create table Podzial_godzinowy(
 	id INT AUTO_INCREMENT not null primary key,
@@ -25,7 +26,8 @@ Create table Nauczyciel(
 
 Create table Przedmiot(
 	id INT AUTO_INCREMENT not null primary key,
-	nazwa varchar(127) not null
+	nazwa varchar(127) not null,
+	constraint un_nazwa unique (nazwa)
 	);
 
 Create table Rok_szkolny(
@@ -79,6 +81,7 @@ Create table Klasa (
 	constraint FK_wychowawca_nauczyciel foreign key (wychowawca) references Nauczyciel(id),
 	constraint FK_rok_szkolny foreign key (rok_szkolny_id) references Rok_szkolny(id)
 	);
+create index ix_klasa_nazwa on Klasa (nazwa);
 
 Create table Uczen_w_klasie (
 	id INT AUTO_INCREMENT not null primary key,
@@ -139,3 +142,22 @@ Create table Ocena (
 	constraint FK_uczen_w_klasie_id foreign key (uczen_w_klasie_id) references Uczen_w_klasie(id),
 	constraint FK_ocena_nauczyciel_przedmiotu foreign key (nauczyciel_przedmiotu_id) references Nauczyciel_przedmiotu(id)
 	);
+	
+select k.nazwa, pz.dni_tygodnia,pz.podzial_godzinowy_id, pz.sala_nr_id , p.nazwa, n.nazwisko, n.imie  
+FROM plan_zajec pz 
+JOIN klasa k ON pz.klasa_id  = k.id and k.nazwa = "6a" and pz.dni_tygodnia = 'Poniedziałek'  
+JOIN nauczyciel_przedmiotu np ON pz.nauczyciel_przedmiotu_id  = np.id
+JOIN przedmiot p on np.przedmiot_id = p.id
+JOIN nauczyciel n on np.nauczyciel_id = n.id; 
+
+select u.imie as imie_ucznia , u.nazwisko as nazwisko_ucznia, o.imie as imie_opiekuna , o.nazwisko as nazwisko_opiekuna 
+from relacja r
+join uczen u  on r.uczen_id  = u.id 
+join opiekun o on r.opiekun_id = o.id 
+order by nazwisko_ucznia ASC;
+
+select k.nazwa, u.imie, u.nazwisko,  length (u.imie)  
+from uczen_w_klasie uwk 
+join klasa k on uwk.klasa_id = k.id 
+join uczen u on uwk.uczen_id = u.id 
+where k.nazwa ="6b" and substring(u.imie, length(u.imie), 1) = "a";
