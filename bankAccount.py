@@ -129,10 +129,13 @@ if __name__ == '__main__':
     credit_card = CreditCard(bank_account)
     phone_app = PhoneApp(bank_account)
 
-    user.log_in("Alicja", "4651")
+
     credit_card.add_money(500, '4651')
     credit_card.pay(200, '4651')
+    user.log_in("Alicja", "461")
+    user.log_in("Alicja", "4651")
     phone_app.account_balance()
     phone_app.pay_with_blik(100, "500 620 010")
     phone_app.wire_tranfer(20, "78 8491 8481 4712 6485 9312 0547")
+    user.log_out()
     user.log_out()

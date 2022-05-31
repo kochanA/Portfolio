@@ -1,7 +1,7 @@
 import timeit
 
 
-def test_sorting_function(sorting_function, data_size, number_of_tests):
+def time_sorting_function(sorting_function, data_size, number_of_tests):
     test_code = f'sorting_function(list_to_sort)'
     print(timeit.timeit(stmt=test_code,
                         globals={'sorting_function': sorting_function,
@@ -73,10 +73,10 @@ if __name__ == '__main__':
     data_size = len(list_of_numbers)
     number_of_tests = 1000
     print("bubble_sort_1:")
-    test_sorting_function(bubble_sort_1, data_size, number_of_tests)
+    time_sorting_function(bubble_sort_1, data_size, number_of_tests)
     print("bubble_sort_2:")
-    test_sorting_function(bubble_sort_2, data_size, number_of_tests)
+    time_sorting_function(bubble_sort_2, data_size, number_of_tests)
     print("bubble_sort_3:")
-    test_sorting_function(bubble_sort_3, data_size, number_of_tests)
+    time_sorting_function(bubble_sort_3, data_size, number_of_tests)
     print("bubble_sort_4:")
-    test_sorting_function(bubble_sort_4, data_size, number_of_tests)
+    time_sorting_function(bubble_sort_4, data_size, number_of_tests)

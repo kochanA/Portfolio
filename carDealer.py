@@ -105,10 +105,13 @@ if __name__ == '__main__':
     car1.color = 'red'
     print(car1.color)
     print(car1.shortname)
+    print('-'*20)
     shop = CarShop(car1, electric)
     shop.show_all_cars()
     shop.add_car(car2)
+    electric.color = 'black'
     shop.show_all_cars()
+    print('-' * 20)
     print(shop)
     shop.sell_car(2, True)
     print(shop)
