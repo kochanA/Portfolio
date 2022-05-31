@@ -35,7 +35,8 @@ I know that modern projects should not only be characterized by a well-designed,
 [Used car dealer](carDealer.py) | 
 [Bank account](bankAccount.py) | 
 [Subscriptions](subscriptions.py) | 
-[Bubble sort](bubbleSort.py)
+[Bubble sort](bubbleSort.py) | 
+[SQL school diary](SQL_dziennik_szkolny) | 
 
 ## Technologies
 
