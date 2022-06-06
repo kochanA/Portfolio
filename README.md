@@ -22,7 +22,7 @@ I am pleased to participate in the "Python from Basics" course organized by the 
 * Databases: SQL databases, Databases - programming.
 * Frontend (HTML, CSS, JavaScript)
 
-The course also covers topics such as Backend Technologies (Django), which I will explore in the coming weeks.
+The course also covers topic such as Backend Technologies (Django), which I will explore in the coming weeks.
 
 ## Git and HTTP
 During the course, I learned not only to program, but also developed my skills in many directions, including:
