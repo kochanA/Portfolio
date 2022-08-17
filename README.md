@@ -21,8 +21,7 @@ I am pleased to participate in the "Python from Basics" course organized by the 
 * Testing and good practices: Software testing and TDD, Design patterns and good practices,
 * Databases: SQL databases, Databases - programming.
 * Frontend (HTML, CSS, JavaScript)
-
-The course also covers topic such as Backend Technologies (Django), which I will explore in the coming weeks.
+* Django
 
 ## Git and HTTP
 During the course, I learned not only to program, but also developed my skills in many directions, including:
@@ -38,6 +37,7 @@ I know that modern projects should not only be characterized by a well-designed,
 [Subscriptions](subscriptions.py) | 
 [Bubble sort](bubbleSort.py) | 
 [SQL school diary](SQL_dziennik_szkolny) | 
+[Natural Life Organic Shop](https://github.com/grupaaaa/final-project) |
 
 ## Technologies
 
