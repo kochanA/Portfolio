@@ -43,7 +43,7 @@ I know that modern projects should not only be characterized by a well-designed,
 
 <center>
 
-![profile](auxiliary/technologie.JPG)
+![profile](auxiliary/technologie.jpg)
 
 </center>
   
