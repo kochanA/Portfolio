@@ -15,7 +15,7 @@ In this way, I wanted to check if programming is something for me and since you 
 
 I have always liked to look for solutions to facilitate repetitive activities, since I noticed the possibility of using programming for such purposes, programming has become even more enjoyable for me.
 
-## Kurs Software Development Academy
+## Course Software Development Academy
 I am pleased to participate in the "Python from Basics" course organized by the Software Development Academy. The course consists of over 300 hours of classes, and I devote many hours a week to independent work, thanks to which I gained knowledge on the following topics:
 * Python: Python Basics, Python Technology, Python Intermediate, Algorithms and Data Structures,
 * Testing and good practices: Software testing and TDD, Design patterns and good practices,
