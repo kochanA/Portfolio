@@ -3,7 +3,7 @@
 Hello, my name is Alicja Kochanowicz, I'm a beginner programmer. I would like share to You my projects and the experience I have gained in their implementation.
 <center>
 
-![mtb](auxiliary/certificate1.jpg)
+![mtb](auxiliary/zdj.jpg)
 
 </center>
 
@@ -25,7 +25,7 @@ I am pleased to participate in the "Python from Basics" course organized by the 
 
 <center>
 
-![mtb](auxiliary/python_od_podstaw.pdf)
+![mtb](auxiliary/certificate1.jpeg)
 
 </center>
 
