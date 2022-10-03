@@ -25,7 +25,7 @@ I am pleased to participate in the "Python from Basics" course organized by the 
 
 <center>
 
-![mtb](auxiliary/certificate1.jpeg)
+![profile](auxiliary/certificate1.jpeg)
 
 </center>
 
