@@ -23,6 +23,12 @@ I am pleased to participate in the "Python from Basics" course organized by the 
 * Frontend (HTML, CSS, JavaScript)
 * Django
 
+<center>
+
+![mtb](auxiliary/python_od_podstaw.pdf)
+
+</center>
+
 ## Git and HTTP
 During the course, I learned not only to program, but also developed my skills in many directions, including:
 * I learned to work with the GIT tool (and Gitlab),
