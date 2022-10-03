@@ -3,7 +3,7 @@
 Hello, my name is Alicja Kochanowicz, I'm a beginner programmer. I would like share to You my projects and the experience I have gained in their implementation.
 <center>
 
-![mtb](auxiliary/zdj.jpg)
+![mtb](auxiliary/certificate1.jpg)
 
 </center>
 
