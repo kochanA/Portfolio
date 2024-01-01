@@ -1,6 +1,6 @@
 # Alicja Kochanowicz
 ## About me
-Hello, my name is Alicja Kochanowicz, I'm a beginner programmer. I would like share to You my projects and the experience I have gained in their implementation.
+Hello, my name is Alicja Kochanowicz, I'm a Mid Python Developer. I would like share to You my projects and the experience I have gained in their implementation.
 <center>
 
 ![mtb](auxiliary/zdj.jpg)
@@ -10,13 +10,13 @@ Hello, my name is Alicja Kochanowicz, I'm a beginner programmer. I would like sh
 
 ## Programming
 After completing my master's degree in electrical engineering, I was looking for a field in which I could develop and so I came up with the idea of ​​deepening my programming knowledge.
-I took my first steps in programming last year with the "Python 3 From Basics to Expert" course on the Udemy platform.
+I took my first steps in programming two years ago with the "Python 3 From Basics to Expert" course on the Udemy platform.
 In this way, I wanted to check if programming is something for me and since you are reading this, you can probably guess that I chose this path of development. The next step in developing my programming skills was enrolling in the Software Development Academy course, where under the watchful eye of experienced programmers I explore the secrets of Python programming in a very wide range. 
 
 I have always liked to look for solutions to facilitate repetitive activities, since I noticed the possibility of using programming for such purposes, programming has become even more enjoyable for me.
 
 ## Course Software Development Academy
-I am pleased to participate in the "Python from Basics" course organized by the Software Development Academy. The course consists of over 300 hours of classes, and I devote many hours a week to independent work, thanks to which I gained knowledge on the following topics:
+I was pleased to participate in the "Python from Basics" course organized by the Software Development Academy. The course consists of over 300 hours of classes, and I devote many hours a week to independent work, thanks to which I gained knowledge on the following topics:
 * Python: Python Basics, Python Technology, Python Intermediate, Algorithms and Data Structures,
 * Testing and good practices: Software testing and TDD, Design patterns and good practices,
 * Databases: SQL databases, Databases - programming.
@@ -44,6 +44,11 @@ I know that modern projects should not only be characterized by a well-designed,
 [Bubble sort](bubbleSort.py) | 
 [SQL school diary](SQL_dziennik_szkolny) | 
 [Natural Life Organic Shop](https://github.com/grupaaaa/final-project) |
+
+## Experience
+I started my journey as a Junior Python Developer, delving into the intricacies of the ERP system Odoo. Working on a project for our store, I not only deepened my Python programming skills but also gained valuable insights into the workings of business and the operations of a retail store. This dynamic project taught me how many elements need to be coordinated for a store to function efficiently. It's fascinating that Odoo provides comprehensive applications, enabling integrated management of various business areas in one place.
+
+After 10 months, I was promoted, allowing me to focus on a specific domain within the project. Currently, I am responsible for and actively contribute to this specialization, presenting continuous challenges and a source of satisfaction. My role continues to evolve, and Odoo remains an invaluable tool streamlining complex business processes. As a team member, I can continue to enhance my skills and contribute to the success of the project.
 
 ## Technologies
 
