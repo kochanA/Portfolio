@@ -54,7 +54,7 @@ After 10 months, I was promoted, allowing me to focus on a specific domain withi
 
 <center>
 
-![profile](auxiliary/technologie.jpg)
+![profile](auxiliary/technologie.png)
 
 </center>
   
